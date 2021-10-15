@@ -80,9 +80,36 @@
     filter: grayscale(1);
 }
 
+.ex-7-img {
+    transition: 3s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(0.7) sepia(0.6);
+}
+
+.ex-8-img {
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(0.7) sepia(0.6);
+    border-radius: 5%;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+}
+
+.ex-9-img {
+    transition: 3s;
+}
+
+.ex-9-img:hover{
+    filter: grayscale(0.7) sepia(0.6);
+    border-radius: 5%;
+    transform: scale(1.4);
 }
 .ex-10-icon {
     font-size: 60px;
